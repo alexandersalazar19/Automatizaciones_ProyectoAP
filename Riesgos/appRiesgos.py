@@ -3,8 +3,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
-from exportar import exportarExcel
-from motor import COLUMNAS,cargarRiesgos,simular,contingencia,resumenPorNivel,riesgosActivos
+from Riesgos.exportarRiesgos import exportarExcel
+from Riesgos.motorRiesgos import COLUMNAS,cargarRiesgos,simular,contingencia,resumenPorNivel,riesgosActivos
 
 st.set_page_config(page_title="Riesgos - Amparo IA",layout="wide")
 

@@ -6,7 +6,7 @@ from openpyxl.formatting.rule import CellIsRule
 from openpyxl.styles import Alignment,Border,Font,PatternFill,Side
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.properties import PageSetupProperties
-from motor import PROB_PORCENTAJE,cargarRiesgos,contingencia,simular
+from Riesgos.motorRiesgos import PROB_PORCENTAJE,cargarRiesgos,contingencia,simular
 
 FUENTE="Arial"
 NIVELES=["Critico","Alto","Medio","Bajo"]
