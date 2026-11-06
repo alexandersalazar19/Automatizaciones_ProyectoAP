@@ -12,7 +12,7 @@ Propuestas de Automatizacion Tecnologicas del proyecto de **Administracion de Pr
 
 ## Enlaces a las aplicaciones
 
-1. Gestion de Riesgos: **[Abrir aplicacion](ENLACE_RIESGOS)** | [`riesgos/`](riesgos/)
+1. Gestion de Riesgos: **[Abrir aplicacion](https://gestionriesgosap.streamlit.app/)** | [`Riesgos/`](Riesgos/)
 
 ## Ejecucion local
 
