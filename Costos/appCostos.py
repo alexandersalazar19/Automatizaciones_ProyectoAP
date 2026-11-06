@@ -167,7 +167,7 @@ with tabRelease:
     der.plotly_chart(figRelease)
 
 with tabFinanciero:
-    st.write("La inversion se realiza en el anio 0 (26 semanas de proyecto) y los beneficios netos empiezan al lanzar la plataforma. "
+    st.write("La inversion se realiza en el año 0 (26 semanas de proyecto) y los beneficios netos empiezan al lanzar la plataforma. "
              "Los valores de beneficio y operacion se ajustan en la barra lateral.")
     f1,f2,f3,f4=st.columns(4)
     f1.metric("VAN",f"${fin['van']:,.0f}")
@@ -179,7 +179,7 @@ with tabFinanciero:
     anios=list(range(0,horizonteAnios+1))
     acumulado=[-p["presupuestoTotal"]+fin["beneficioNetoAnual"]*t for t in anios]
     figFlujo=go.Figure(go.Bar(x=anios,y=acumulado,marker_color=["#e45756" if v<0 else "#54a24b" for v in acumulado]))
-    figFlujo.update_layout(title="Flujo de caja acumulado (sin descontar)",xaxis=dict(dtick=1,title="Anio"),yaxis_title="USD")
+    figFlujo.update_layout(title="Flujo de caja acumulado (sin descontar)",xaxis=dict(dtick=1,title="Año"),yaxis_title="USD")
     st.plotly_chart(figFlujo)
 
 with tabDetalle:
