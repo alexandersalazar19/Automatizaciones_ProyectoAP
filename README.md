@@ -5,7 +5,7 @@ Propuestas de Automatización Tecnológicas del proyecto de **Administración de
 ## Enlaces a las aplicaciones
 
 1. Gestión de Riesgos: **[Abrir aplicación](https://gestionriesgosap.streamlit.app/)** | [`Riesgos/`](Riesgos/)
-2. Control de Costos: **[Abrir aplicación]()** | [`Costos/`](Costos/)
+2. Control de Costos: **[Abrir aplicación](https://controlcostosap.streamlit.app/)** | [`Costos/`](Costos/)
 
 ### Pasos para probar la aplicación de riesgos
 
