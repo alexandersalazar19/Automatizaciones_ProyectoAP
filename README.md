@@ -5,6 +5,7 @@ Propuestas de Automatización Tecnológicas del proyecto de **Administración de
 ## Enlaces a las aplicaciones
 
 1. Gestión de Riesgos: **[Abrir aplicación](https://gestionriesgosap.streamlit.app/)** | [`Riesgos/`](Riesgos/)
+2. Control de Costos: **[Abrir aplicación]()** | [`Costos/`](Costos/)
 
 ### Pasos para probar la aplicación de riesgos
 
@@ -14,11 +15,19 @@ Propuestas de Automatización Tecnológicas del proyecto de **Administración de
 4. Explore las pestañas: matriz de calor, ranking, simulación y registro.
 5. Cambie las iteraciones, la semilla o los filtros, y descargue la matriz en Excel desde la pestaña "Registro".
 
+### Pasos para probar la aplicación de costos
+
+1. Abra el enlace de la aplicación de control de costos. Si aparece un boton para "despertarla", presionelo y espere unos segundos.
+2. Descargue las plantillas vacías desde la barra lateral y llenelas con sus datos.
+3. Suba los CSV en la barra lateral.
+4. Explore las pestañas: distribución en el tiempo, composición, por release, análisis financiero y detalle y exportación.
+5. Cambie los parámetros ajustables a su gusto y descargue la distribución por sprints como un CSV o los presupuestos en Excel desde la pestaña "Detalle y exportacion".
+
 ## Ejecución local
 
 Requiere Python 3.10 o superior.
 
-### Para la app de Riesgos:
+### Crear entorno y descargar requerimientos:
 
 Windows:
 ```powershell
